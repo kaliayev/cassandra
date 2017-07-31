@@ -178,6 +178,7 @@ from cqlshlib.util import get_file_encoding_bomsize, trim_if_present
 DEFAULT_HOST = '127.0.0.1'
 DEFAULT_PORT = 9042
 DEFAULT_SSL = False
+DEFAULT_PROTOCOL_VERSION = 3
 DEFAULT_CONNECT_TIMEOUT_SECONDS = 5
 DEFAULT_REQUEST_TIMEOUT_SECONDS = 10
 
